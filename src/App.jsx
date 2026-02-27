@@ -1,8 +1,10 @@
+import ChartKLine from "./components/ChartKLine.jsx";
+
 export default function App() {
   return (
-    <div style={{ padding: 16 }}>
+    <div style={{ padding: 20 }}>
       <h2>NQ Index Engine</h2>
-      <div>✅ Repo 初始化完成。下一步加入 Tick / News / Macro / Backtest 引擎。</div>
+      <ChartKLine />
     </div>
   );
 }
